@@ -7,6 +7,7 @@ const useWeatherState = (url) => {
   const currentWeather = document.querySelector('.CurrentWeather');
   const searchContent = document.querySelector('.SearchContent');
   const ShowWeaklyBtn = document.querySelector('.fa-arrow-right');
+  const InputSearchContainer = document.querySelector('.InputSearch-container');
   
   const [city, setCity] = useState('london');
   const [lat, setLat] = useState(51.5085)
@@ -18,6 +19,7 @@ const useWeatherState = (url) => {
     currentWeather.classList.toggle('active')
     searchContent.classList.toggle('active')
     ShowWeaklyBtn.classList.toggle('active')
+    InputSearchContainer.classList.toggle('active')
   }
 
 
@@ -35,7 +37,8 @@ const useWeatherState = (url) => {
     handleActiveInfo,
     currentWeather,
     searchContent,
-    ShowWeaklyBtn
+    ShowWeaklyBtn,
+    InputSearchContainer
   }
 }
 

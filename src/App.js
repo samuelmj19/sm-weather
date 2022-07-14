@@ -2,6 +2,7 @@
 import Home from './components/Home';
 import AppContext from './context/AppContext';
 import useWeatherState from './hooks/useWeatherState';
+import './components/styles/mediaQ.css'
 
 function App() {
   const weatherState = useWeatherState();

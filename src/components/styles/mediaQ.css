@@ -1,0 +1,54 @@
+@media screen and (max-width: 850px) {
+    .days-card{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .ContentCard{
+        height: 550px;
+    }
+    .Search-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .MapContainer{
+        margin: 10px auto;
+    }
+}
+@media screen and (max-width: 740px) {
+    .CurrentWeather-weekly{
+        justify-content: center;
+        gap: 0;
+    }
+    .days-card{
+        width: 45%;
+        margin: 2px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .ContentCard{
+        width: 90%;
+    }
+    .InputSearch-searchBar-container{
+        width: 90%;
+    }
+    .InputSearch-container.active{
+        display: none;
+    }
+    .Show-weakly-btn p{
+        font: 0/0 a;
+        text-shadow: transparent;
+        color: transparent;
+        text-decoration: none;
+    }
+    .Show-weakly-btn p::before{
+        visibility: visible;
+        content: 'Weekly';
+        font-size: large;
+        color: #000; 
+    }
+    .SearchContent.active{width: 0;}
+    .CurrentWeather{
+        width: 90%;
+    }
+}
