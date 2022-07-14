@@ -21,7 +21,6 @@
     height: 100%;
     flex-wrap: wrap;
     gap: 3%;
-    /* justify-content: space-between; */
 }
 .days-card{
     display: inline-block;
