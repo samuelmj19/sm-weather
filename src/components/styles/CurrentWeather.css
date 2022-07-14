@@ -1,0 +1,37 @@
+.CurrentWeather{
+    display: none;
+    grid-template-rows: repeat(2 ,1fr);
+    width: 70%;
+    padding: 10px;
+    height: 100%;
+    transition: 0.5s;
+}
+.CurrentWeather-weekly{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.CurrentWeather-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.weather-span{
+    display: flex;
+    align-items: center;
+}
+.days-card{
+    display: inline-block;
+    width: 100px;
+    height: 105px;
+    border-radius: 10px;
+    background-color: rgba(154, 186, 189, 0.377);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    padding: 5px;
+}
+.CurrentWeather.active{
+    display: grid;
+}

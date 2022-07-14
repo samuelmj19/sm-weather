@@ -1,0 +1,10 @@
+
+.juan{
+    max-width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+.leaflet-touch .leaflet-bar a{
+    display: none;
+}

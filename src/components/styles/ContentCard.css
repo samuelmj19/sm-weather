@@ -1,0 +1,33 @@
+.ContentCard{
+    display: flex;
+    /* background-image: url('/public/images/bennet-sunny.png'); */
+    background: linear-gradient(20deg, #90c2d662, #8d8d7d91);
+    width: 70%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+#id01d{background: linear-gradient(20deg, #00b7ff62, #feffac91);}
+#id02d{background: linear-gradient(20deg, #00b7ff62, #feffac91);}
+#id03d{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id04d{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id09d{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id10d{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id11d{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+/* #id13d{}
+#id50d{} */
+#id01n{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id02n{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id03n{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id04n{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id09n{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id10n{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+#id11n{background: linear-gradient(20deg, #90c2d662, #8d8d7d91);}
+/* #id13n{}
+#id50n{} */

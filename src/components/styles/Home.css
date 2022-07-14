@@ -1,0 +1,32 @@
+.Home-container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* background: linear-gradient(20deg, #00b7ff, #feffac); */
+    /* background-image: url('https://source.unsplash.com/600x900/?sky,rain'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 6px -15px 50px 21px #7e7e7eab;
+}
+
+#id01d{background-image: url('/public/images/clear.jpg');}
+#id02d{background-image: url('/public/images/clear.jpg');}
+#id03d{background-image: url('/public/images/clouds.jpg');}
+#id04d{background-image: url('/public/images/clouds.jpg');}
+#id09d{background-image: url('/public/images/rain.jpg');}
+#id10d{background-image: url('/public/images/rain.jpg');}
+#id11d{background-image: url('/public/images/storm.jpg');}
+#id13d{background-image: url('');}
+#id50d{background-image: url('');}
+#id01n{background-image: url('/public/images/night.jpg');}
+#id02n{background-image: url('/public/images/night.jpg');}
+#id03n{background-image: url('/public/images/clouds.jpg');}
+#id04n{background-image: url('/public/images/clouds.jpg');}
+#id09n{background-image: url('/public/images/rain.jpg');}
+#id10n{background-image: url('/public/images/rain.jpg');}
+#id11n{background-image: url('/public/images/storm.jpg');}
+#id13n{background-image: url('');}
+#id50n{background-image: url('');}
