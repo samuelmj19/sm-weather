@@ -8,13 +8,11 @@ const apiCity = "https://api.openweathermap.org/data/2.5/weather?";
 
 const InputSearch = () => {
   const {
-    city,
     setCity,
     setLat,
     setLon,
     lat,
     lon,
-    setLoading,
     loading,
     setBackground,
     handleActiveInfo,
@@ -27,7 +25,7 @@ const InputSearch = () => {
   const [data, setData] = useState([]);
   const [searchCity, setSearchCity] = useState("london");
   const [searchCoord, setSearchCoord] = useState({ lat: lat, lon: lon });
-  let componentMounted = true;
+  
 
   useEffect(() => {
     async function fetchData() {
@@ -35,7 +33,7 @@ const InputSearch = () => {
         `${apiCity}q=${searchCity}&appid=${process.env.REACT_APP_API_KEY}&units=metric`
       );
       setData(await response.json());
-      // setLoading(false)
+   
     }
     fetchData();
   }, [searchCity]);
@@ -44,7 +42,7 @@ const InputSearch = () => {
     event.preventDefault();
     setSearchCity(input);
     setSearchCoord({ lat: data.coord.lat, lon: data.coord.lon });
-    // setBackground(data.weather[0].icon)
+   
     currentWeather.classList.remove("active");
     searchContent.classList.remove("active");
     ShowWeaklyBtn.classList.remove("active");

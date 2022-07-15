@@ -57,7 +57,6 @@ const CurrentWeather = () => {
             </article>
             )
             }).slice(1, 7)}
-          {/* <p>{result}</p> */}
       </div>
     </div>
   )
